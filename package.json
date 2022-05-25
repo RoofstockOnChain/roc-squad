@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "compile": "truffle compile",
+    "migrate:development": "truffle migrate --network development",
     "test": "truffle test"
   },
   "repository": {
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/RoofstockOnChain/roc-squad/issues"
   },
-  "homepage": "https://github.com/RoofstockOnChain/roc-squad#readme"
+  "homepage": "https://github.com/RoofstockOnChain/roc-squad#readme",
+  "dependencies": {
+    "truffle": "^5.5.15"
+  }
 }
