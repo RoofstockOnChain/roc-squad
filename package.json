@@ -1,0 +1,28 @@
+{
+  "name": "roc-squad",
+  "version": "1.0.0",
+  "description": "An ERC-721 smart contract for the Roofstock onChain team.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoofstockOnChain/roc-squad.git"
+  },
+  "keywords": [
+    "nft",
+    "erc-721",
+    "roofstock",
+    "roc-squad"
+  ],
+  "author": "Roofstock onChain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoofstockOnChain/roc-squad/issues"
+  },
+  "homepage": "https://github.com/RoofstockOnChain/roc-squad#readme"
+}
