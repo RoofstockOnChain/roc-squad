@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/RoofstockOnChain/roc-squad#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
     "truffle": "^5.5.15"
   }
 }
