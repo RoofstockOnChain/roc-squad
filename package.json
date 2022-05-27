@@ -9,7 +9,9 @@
   "scripts": {
     "compile": "truffle compile",
     "migrate:development": "truffle migrate --network development",
-    "test": "truffle test"
+    "migrate:rinkeby": "truffle migrate --network rinkeby",
+    "test": "truffle test",
+    "verify:roc-squad:rinkeby": "truffle run verify RocSquad --network rinkeby"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,11 @@
   "homepage": "https://github.com/RoofstockOnChain/roc-squad#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "dotenv": "^16.0.1",
     "truffle": "^5.5.15"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.25"
   }
 }

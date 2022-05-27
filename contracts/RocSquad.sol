@@ -17,7 +17,7 @@ contract RoCSquad is ERC721, ERC721URIStorage, Pausable, Ownable, ERC721Burnable
     constructor() ERC721("RoC Squad", "RoC") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://www.roofstock.dev/roc-squad/";
+        return "https://ipfs.io/ipfs/";
     }
 
     function pause() public onlyOwner {
